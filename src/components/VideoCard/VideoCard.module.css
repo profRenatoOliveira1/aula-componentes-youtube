@@ -1,3 +1,9 @@
+.videoCardContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 .videoCard {
     width: 400px;
     height: 300px;
@@ -7,6 +13,8 @@
 
     background-color: rgba(0, 0, 0, 0.80);
     border-radius: 2px;
+
+    margin: 10px 0;
 }
 
 .videoThumb {
